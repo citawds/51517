@@ -1,0 +1,86 @@
+html, body, div, p, header, section {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+  background: #000;
+  outline: 1px solid #00ff00;
+}
+
+body {
+  background: #000;
+  max-width: 100%;
+  
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0;
+  
+}
+
+header {
+  width: 100%;
+  padding: 8.335% 0;
+  background: #444444;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+section.left {
+  width: 15.82%;
+  background: #d8d8d8;
+  padding: 150% 0;
+}
+
+section.left p {
+  color: #d8d8d8;
+}
+
+section.middle {
+  width: 68.36%;
+  background: #efefef;
+  /*padding: 37.76% 0;*/
+  padding: 100% 0;
+}
+
+section.middle p {
+  color: #efefef;
+}
+
+section.middle .top {
+  width: 100%;
+  /*padding: 27% 0;*/
+  padding: 53% 0;
+}
+section.middle .footer {
+  width: 100%;
+  padding: 6% 0;
+  background: #222;
+}
+
+section.right {
+  width: 15.82%;
+  background: #d8d8d8;
+  /*padding: 37.76% 0;*/
+  /*padding: 75.5% 0;*/
+  padding: 100% 0;
+}
+
+section.right p {
+  color: #d8d8d8;
+}
+
+section.left, section.middle, section.right p {
+  padding: 100% 0;
+  
+}

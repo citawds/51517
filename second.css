@@ -1,0 +1,59 @@
+html, body, div, p, img, ul, li, a, h1, h2 {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+	width: 100%;
+}
+
+.wrapper {
+	width: 96%;
+	margin: 0 auto;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+}
+
+.left {
+	background: #4a90e2;
+	color: #4a90e2;
+}
+
+.middle {
+	background: #50e3c2;
+	color: #50e3c2;
+}
+
+.right {
+	background: #b8e986;
+	padding: 90% 0;
+	color: #b8e986;
+}
+
+.column {
+	width: 33.33%;
+	padding: 100% 0;
+}
+
+.column .none {
+	padding: 100% 0;
+}
+
+.right .bottom {
+	width: 100%;
+}
+
+.bottom p {
+	text-align: center;
+	color: #fff;
+	font-size: 1.20em;
+}
+
+.right .bottom {
+	padding: 23% 0;
+	background: #d0021b;
+}
